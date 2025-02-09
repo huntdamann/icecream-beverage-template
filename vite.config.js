@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base: "/ice-cream-man"
+  base: "/icecream-beverage-template"
 })
