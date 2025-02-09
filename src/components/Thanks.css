@@ -1,0 +1,14 @@
+.thanks-section {
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kdam Thor Pro', sans-serif;
+    height: 50vh; 
+    min-width: 100%;
+    gap: 3rem;
+    position: relative;
+    background: linear-gradient(white 60%, #f9d7fb);
+
+}

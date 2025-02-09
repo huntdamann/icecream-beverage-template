@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'Kdam Thor Pro';
+    src: url('/fonts/kdam-pro.woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.main {
+    
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kdam Thor Pro', sans-serif;
+    height: 100vh; 
+    min-width: 100%;
+    gap: 3rem;
+    position: relative;
+    background: linear-gradient(white 60%, #f9d7fb);}
+    
+
+
+.btn-cta {
+    
+    background-color: #d9d9d9;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 10rem;
+    text-align: center;
+    opacity: 0;
+
+}
+
+.slogan-cta {
+
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 3rem;
+}
+#slogan {
+    opacity: 0;
+}
+#b {
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    transform: rotate(30deg);
+    z-index: 99;
+    opacity: 0;
+}
+#b-2 {
+    position: absolute;
+    bottom: 0;
+    left: -2rem;
+    transform: rotate(-30deg);
+    opacity: 0;
+
+}
+#title {
+
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
